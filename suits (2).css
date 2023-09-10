@@ -76,12 +76,15 @@ background-image: radial-gradient(circle, #fffdfd, #f5f3f4, #ebeaea, #e1e0e1, #d
   justify-content: center;
   height: 100vh;
   text-align: center;
-    margin: 10px;
   padding: 20px;
-  padding:400px;
+   margin-bottom:200px;
+    margin-top: 300px;
    
 }
+.article
+{  margin:40px;
 
+}
 img {
   max-width: 100%;
   height: auto;
