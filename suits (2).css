@@ -1,0 +1,169 @@
+body{
+    margin:0px;
+    background-image: linear-gradient(to left bottom, #ffecc3, #ffead4, #ffece9, #fff1f8, #fff8ff, #ebe8ed, #d8d7da, #c7c7c7, #9f9f9f, #787878, #545454, #323232);
+}
+h1
+{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 13px;
+    font-size: 40px;
+    font-family:baskerville;
+    text-align:center;
+    margin: 200px;
+}
+
+.button
+
+{
+ background: none;
+ color:#22333b;
+ border:2px solid;
+ margin:20px;
+ padding:1em 2em;
+ font-size: 0.8em;
+ border-radius:30px;
+ text-decoration:none;
+
+}
+
+.button:hover
+
+{
+    border-color:#8b8c89;
+    color:#8b8c89;
+    box-shadow: 0 0.5em 0.5em -0.4em #5e503f;
+    transform:translateY(-5px)
+         text-decoration: none;
+}
+nav{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+   z-index: 1;
+ 
+  
+}
+.text-overlay {
+  position: relative;
+  z-index: 2;
+
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+ 
+}
+
+.navbar.scrolled {
+background-image: radial-gradient(circle, #fffdfd, #f5f3f4, #ebeaea, #e1e0e1, #d7d7d7, #c9cac9, #bcbcbc, #afafaf, #9b9b9b, #888888);
+
+}
+.title {
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+
+
+}
+
+.article-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+    margin: 10px;
+  padding: 20px;
+  padding:400px;
+   
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  
+}
+.image{
+    padding:20px;
+}
+
+.article {
+  max-width: 600px;
+  margin: 0 auto;
+    padding: 40px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family:baskerville;
+    text-align:center;
+    margin: 20px;
+    flex-grow: 1;
+
+
+}
+footer
+{
+   z-index: 1;
+   padding: 100px;
+   margin: 0;
+   text-align: center;
+}
+.my-icon {
+  font-size: 30px;
+  color: white;
+}
+h9
+{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family:baskerville;
+    text-align:center;
+    margin: 20px;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 1000px) 
+
+  { 
+img {
+  max-width: 700px;
+  height: 500px;
+  margin: 20px;
+  
+}
+.image{
+    padding:20px;
+}
+
+.article text {
+  max-width: 100px;
+  margin: 0 auto;
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family:baskerville;
+    text-align:center;
+    margin: 10 px;
+    flex-grow: 2;
+
+
+}
+  }
