@@ -1,3 +1,5 @@
+
+
 body{
 	margin:0px;
 	background-image: linear-gradient(to left bottom, #ffecc3, #ffead4, #ffece9, #fff1f8, #fff8ff, #ebe8ed, #d8d7da, #c7c7c7, #9f9f9f, #787878, #545454, #323232);
@@ -92,9 +94,7 @@ img {
   margin: 20px;
   
 }
-.image{
-	padding:20px;
-}
+
 
 .article {
   max-width: 600px;
@@ -187,8 +187,3 @@ background-image: radial-gradient(circle, #fffdfd, #f5f3f4, #ebeaea, #e1e0e1, #d
 
 }
 
-
-p
-
-	{padding: 20px;
-	}
