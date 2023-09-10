@@ -77,12 +77,12 @@ background-image: radial-gradient(circle, #fffdfd, #f5f3f4, #ebeaea, #e1e0e1, #d
   height: 100vh;
   text-align: center;
   padding: 20px;
-   margin-bottom:400px;
-    margin-top: 500px;
+   margin-bottom:40px;
+    margin-top: 50px;
    
 }
 .article
-{  margin:40px;
+{  padding:40px;
 
 }
 
